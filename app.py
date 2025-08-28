@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from nonexistent_module import fake_function  # This will break CI
 
 app = Flask(__name__)
 
